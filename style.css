@@ -16,7 +16,7 @@ header {
 }
 
 .hero {
-    padding: 10px 150px 75px 150px;
+    padding: 1% 8% 5% 8%;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav {
 .nav-links li {
     list-style: none;
     display: inline-block;
-    padding-right: 50px;
+    padding-left: 25px;
 }
 
 li a {
@@ -42,13 +42,13 @@ li a {
 }
 
 .top-section {
-    padding: 10px 150px 75px 150px;
+    padding: 1% 8% 5% 8%;
     display: flex;
     align-items: center;
 }
 
 .welcome-msg {
-    padding: 0px 30px 0px 0px;
+    padding: 0 5% 0 0;
     flex: 1 1 0%;
 }
 
@@ -61,12 +61,12 @@ li a {
     font-size: 18px;
     font-weight: lighter;
     color: #E5E7EB;
-    padding-bottom: 10px;
+    padding-bottom: 3%;
 
 }
 
 #main-img {
-    width: 150px;
+    width: 50%;
     height: auto;
     flex: 1 1 0%
 }
@@ -81,7 +81,7 @@ li a {
 }
 
 .reasons-sec {
-    padding: 50px 150px 50px 150px;
+    padding: 5% 15% 5% 15%;
 }
 
 #reas-tr {
@@ -94,6 +94,7 @@ li a {
 
 .reas-box {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .reas-box div div {
@@ -108,8 +109,8 @@ li a {
 }
 
 .reas-box div {
-    padding: 10px 0px;
     flex: 1 1 0;
+    padding: 3% 4%;
 }
 
 .reas-box p {
@@ -123,7 +124,7 @@ li a {
 
 .inspiration-sec {
     background-color: #E5E7EB;
-    padding: 80px 300px 80px 300px;
+    padding: 8% 20% 8% 20%;
 }
 
 #quote-ceo {
@@ -139,7 +140,7 @@ li a {
 }
 
 .CTA-section {
-    padding: 100px 150px 100px 150px;
+    padding: 10% 8% 10% 8%;
     display: flex;
     justify-content: center;
 }
@@ -176,11 +177,33 @@ li a {
 
 footer {
     background-color: #1F2937;
-    padding: 30px 0px;
+    padding: 1% 0px;
 }
 
 #copyright {
     color: #e5e5e5;
     text-align: center;
     font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 2%;
+    }
+    .top-section {
+        flex-direction: column;
+        padding: 0;
+    }
+    .welcome-msg{
+        text-align: center;
+        padding: 0% 2%;
+    }
+    #main-img {
+        padding: 3% 0;
+        width: 100%;
+        height: auto;
+    }
 }
