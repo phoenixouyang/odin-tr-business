@@ -123,7 +123,7 @@ li a {
 
 .inspiration-sec {
     background-color: #E5E7EB;
-    padding: 80px 200px 80px 200px;
+    padding: 80px 300px 80px 300px;
 }
 
 #quote-ceo {
@@ -140,10 +140,14 @@ li a {
 
 .CTA-section {
     padding: 100px 150px 100px 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .call-box {
     background-color: #3882F6;
+    height: auto;
+    width: 1000px;
     padding: 40px 100px 40px 100px;
     border-radius: 7px;
     display: flex;
@@ -170,3 +174,13 @@ li a {
     border-radius: 5px;
 }
 
+footer {
+    background-color: #1F2937;
+    padding: 30px 0px;
+}
+
+#copyright {
+    color: #e5e5e5;
+    text-align: center;
+    font-size: 15px;
+}
