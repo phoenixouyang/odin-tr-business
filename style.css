@@ -6,7 +6,7 @@
 
 body{
     background-color: white;
-    font-family: sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 header {
@@ -44,10 +44,12 @@ li a {
 .top-section {
     padding: 10px 150px 75px 150px;
     display: flex;
+    align-items: center;
 }
 
 .welcome-msg {
     padding: 0px 30px 0px 0px;
+    flex: 1 1 0%;
 }
 
 #welcome-txt {
@@ -64,6 +66,58 @@ li a {
 }
 
 #main-img {
-    width: 400px;
+    width: 150px;
     height: auto;
+    flex: 1 1 0%
 }
+
+#bttn-1 {
+    background-color: #3882f6;
+    padding: 10px 40px;
+    font-size: 18px;
+    color: #f9FaF8;
+    border: 0;
+    border-radius: 5px;
+}
+
+.reasons-sec {
+    padding: 50px 150px 50px 150px;
+}
+
+#reas-tr {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.reas-box {
+    display: flex;
+}
+
+.reas-box div div {
+    border: 3px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.reas-box div {
+    padding: 10px 0px;
+    flex: 1 1 0;
+}
+
+.reas-box p {
+    font-size: 18px;
+    color: #3f3f3f;
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
