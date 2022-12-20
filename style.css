@@ -121,3 +121,19 @@ li a {
     margin-right: auto;
 }
 
+.inspiration-sec {
+    background-color: #E5E7EB;
+    padding: 80px 200px 80px 200px;
+}
+
+#quote-ceo {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#ceo {
+    float: right;
+    font-weight: 500;
+}
