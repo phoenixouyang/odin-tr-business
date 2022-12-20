@@ -29,11 +29,19 @@ nav {
     padding-left: 25px;
 }
 
-li a {
+li a:hover {
+    color: #3882F6;
+}
+
+.nav-links li a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
     font-weight:lighter;
+}
+
+.nav-links li a:hover {
+    color: #3882F6;
 }
 
 #logo {
@@ -78,6 +86,7 @@ li a {
     color: #f9FaF8;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .reasons-sec {
@@ -97,29 +106,31 @@ li a {
     flex-wrap: wrap;
 }
 
-.reas-box div div {
-    border: 3px solid #3882F6;
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
 
 .reas-box div {
     flex: 1 1 0;
-    padding: 3% 4%;
+    padding: 3% 1%;
+}
+
+.reas-box img { 
+    border: 3px solid #3882F6;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.reas-box img:hover{
+    box-shadow: 0 0 15px #3882F6;
 }
 
 .reas-box p {
     font-size: 18px;
     color: #3f3f3f;
     text-align: center;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 250px;
 }
 
 .inspiration-sec {
@@ -173,6 +184,12 @@ li a {
     border: 2px solid #f9FaF8;
     padding: 5px 25px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+#bttn-2:hover{
+    background-color: #f9FaF8;
+    color: #3882F6;
 }
 
 footer {
