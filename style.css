@@ -137,3 +137,36 @@ li a {
     float: right;
     font-weight: 500;
 }
+
+.CTA-section {
+    padding: 100px 150px 100px 150px;
+}
+
+.call-box {
+    background-color: #3882F6;
+    padding: 40px 100px 40px 100px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#join-today {
+    color: #f9FaF8;
+    font-size: 20px;
+}
+
+#click-button {
+    color: #f9FaF8;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#bttn-2 {
+    background-color: #3882F6;
+    color: #f9FaF8;
+    border: 2px solid #f9FaF8;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
